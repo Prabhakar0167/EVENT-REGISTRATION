@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Page</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>HTML TASK: Event Registration Page</h1>
+    <hr>
+    <p>Create a simple webpage for an event registration using lists, tables, and forms. Perfect for new coders!</p>
+
+    <h2>1.Create an Event Highlight List</h2>
+    <hr>
+    <p>Use an unordered list to highlight the key features of the event:</p>
+
+    <h3>Event Highlights</h3>
+    <ul>
+
+        <li>Guest Speakers</li>
+        <li>Workshops</li>
+        <li>Networking</li>
+    </ul>
+
+    <h2>2. Create an Event Schedule Table</h2>
+    <hr>
+    <p>Make a table to show the event schedule.</p>
+    <table>
+        <tr>
+            <th>Event Schedule</th>
+            <tr>
+                <td><b>Time</b></td>
+                <td><b>Session</b></td>
+                <td><b>Speaker</b></td>
+                <td><b>Room</b></td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Web Development Workshop</td>
+                <td>John Smith</td>
+                <td>Hall A</td>
+            </tr>
+        </tr>
+    </table>
+
+    <h2>3. Create an Event Registration Form</h2>
+    <hr>
+    <p>Build a simple form for user Registration.</p>
+
+    <form>
+        <h2>Register for the Event</h2>
+        <label for="name">Name:</label>
+        <label for="email">Email:</label>
+        <label for="Choose Ticket Type">Choose Ticket Type:</label>
+        <select id="ticket" name="ticket">
+            <option value="Standard">General Admission</option>
+            <option value="General">VIP</option>
+            <option value="student">Student</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
